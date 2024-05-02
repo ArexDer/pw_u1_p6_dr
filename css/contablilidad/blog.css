@@ -1,0 +1,62 @@
+
+*{
+    background-color: rgb(136, 204, 204);
+}
+#miBlogInicio{
+    color: #8d0801;
+    text-align: center;
+}
+
+.menu li{
+    
+    list-style: none; /*La lista va a desaparecer*/
+    background-color:#bf0603;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    
+    /*margin: 25px; /* Aplica a los 4 lados, top, down, rigth, left*/
+    margin: 5px 15px; /*El primer dijito aplica a ARRIBA y Abajo, El 2do numero  a la IZQ  y Derecha*/
+    /*margin: 10px 20px 30px 50px;/*Arriba, derecha, abajo,izquierda SENTIDO HORARIO*/
+
+    /*DE LA MISMA MANERA EXISTE UN padding en los 4 sentidos */
+
+    border: 1px dashed black;
+    padding: 5px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20;
+    
+}
+.menu{
+    background: #f4d58d;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+
+.menu li:hover{
+    background-color: rgb(73, 75, 72);
+
+    color: aliceblue;
+
+}
+
+h1{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+p{
+    background-color: #f4d58d;
+    padding-left: 44px;
+    
+}
+.com{
+    color: white;
+    text-align: center;
+    background-color:#708d81;
+}

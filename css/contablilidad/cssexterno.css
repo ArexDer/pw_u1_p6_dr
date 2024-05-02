@@ -1,0 +1,19 @@
+/*
+LINEA DE COMENTARIO
+*/
+
+h1{
+    color: blueviolet;
+    background-color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*Tipo Clase*/
+.clasemedia{
+    color: turquoise;
+    background-color: black;
+}
+.clasealta{
+    color: brown;
+    background-color: antiquewhite;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
