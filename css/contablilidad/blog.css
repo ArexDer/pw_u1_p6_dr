@@ -1,16 +1,9 @@
 
-*{
-    background-color: rgb(136, 204, 204);
-}
-#miBlogInicio{
-    color: #8d0801;
-    text-align: center;
-}
 
 .menu li{
     
     list-style: none; /*La lista va a desaparecer*/
-    background-color:#bf0603;
+    background-color:#023047;
     color: rgb(255, 255, 255);
     display: inline-block;
     
@@ -27,16 +20,17 @@
     
 }
 .menu{
-    background: #f4d58d;
+    background: #432818;
     padding: 5px 15px;
-    text-align: left;
+    
+    
 }
 
 
 .menu li:hover{
-    background-color: rgb(73, 75, 72);
+    background-color: #ffb703;
 
-    color: aliceblue;
+    color: black;
 
 }
 
@@ -50,13 +44,76 @@ h2{
     font-size: 16px;
 }
 
+body{
+    text-align: center;
+    background-color:#a98467;
+}
+
 p{
-    background-color: #f4d58d;
+    background-color: #e29578;
     padding-left: 44px;
     
 }
-.com{
-    color: white;
+
+
+/*VAMOS A DAR ESTILOS A AGRUPAR*/
+.agrupar{
+    border: 1px solid black;
+    background-color: #eddea4 ;
+    width: 900px;
+    margin: 20px auto;
+}
+
+.cabecera{
+    color: black;
+    background-color: azure;
     text-align: center;
-    background-color:#708d81;
+    border: 5px solid #bb9457;
+    padding: 20px;
+}
+
+.seccion{
+    width: 600px;
+    margin: 17px;
+    float: left;
+    border: 2px solid black;
+}
+
+#articulo1, #articulo2{
+    background: #bb9457;
+    border: 10px solid #ffe6a7;
+    padding: 20px;
+
+}
+
+article footer{
+    text-align: right;
+    color: aliceblue;
+}
+
+.referencias{
+    width: 190px;
+    float: right;
+    margin: px 60px;
+    padding-left: 2px;
+    background-color: #ffe6a7;
+
+}
+
+.pie{
+    clear: both;
+}
+
+blockquote{
+    border: 1px solid black;
+    padding: 5px;
+    background:#99582a ;
+    width: 130px;
+}
+
+img{
+    width: 250px ;
+    height: 75px;
+    margin: auto auto;
+   
 }
